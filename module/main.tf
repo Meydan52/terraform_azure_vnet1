@@ -1,5 +1,5 @@
 module "Azure_Vnet" {
-  source          = "Meydan52/Azure_Vnet/project"
+  source          = ""
   rg_name         = "azure_vnet"
   rg_location     = "East US"
   vnet_name       = "MyVnet"
