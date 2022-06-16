@@ -21,7 +21,12 @@ output "resource_group_location" {
   value = azurerm_virtual_network.vnet.location
 }
 
-
+output "rg_id" {
+value = azurerm_network_security_group.vnet_sg.id 
+}
+output "rg_name" {
+value = azurerm_network_security_group.vnet_sg.name
+}
 # output "full_info" {
 #  value = data.terraform_remote_state.main.outputs.*
 # }
